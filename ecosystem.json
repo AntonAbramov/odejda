@@ -27,7 +27,7 @@
       "port": "2233",
       "ref": "origin/master",
       "repo": "git@github.com:AntonAbramov/odejda.git",
-      "path": "/var/www/odejda/",
+      "path": "/var/www/odejda",
       "post-deploy": "npm install ; pm2 startOrRestart ecosystem.json --env production"
     }
   }
