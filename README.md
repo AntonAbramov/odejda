@@ -9,6 +9,7 @@ service mongod status/start/stop/restart
 
 // Deployment
 pm2 deploy production
+netstat -peanut (check what ports in use)
 
 // start
 1. run mongod instance
