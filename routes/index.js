@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: "Odejda UA",
+    title: "Пошив Одежды в Харькове | Пошив Оптом Дешево| Odejda UA",
     description: "Ателье - Odejda-ua предоставляет широкий спектр услуг по пошиву одежды. Наш швейный цех производит рикотажные платья, женскую одежду оптом, шьем верхнюю одежду. ",
     keywords: "пошив одежды, швейный цех, ремонт одежды, женская одежда оптом, поставщики одежды, трикотажные платья, швейное производство, швейное ателье, ателье по пошиву верхней одежды, пошив на заказ",
   });
@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
 
 router.get('/poshiv-odejdy', function (req, res, next) {
   res.render('pages/poshiv-odejdy', {
-    title: "Пошив О дежды | Odejda UA",
+    title: "Пошив Одежды | Odejda UA",
     description: "Индивидуальный Пошив Одежды в Харькове, низкие цены, высокое качество",
     keywords: "пошив одежды"
   });
