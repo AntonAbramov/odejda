@@ -10,3 +10,12 @@ html {
 body {
   height: 100%;
 }
+
+.show-tablet,
+.show-desktop {
+  display: none;
+}
+
+.body {
+  padding: 0 15px;
+}

@@ -1,10 +1,11 @@
-$link-color: #428bca;
-$link-hover-color: #2a6496;
-$link-hover-decoration: underline !default;
+$link-color: #049f97;
+$link-hover-color: #049f97;
+$link-hover-decoration: none !default;
 $white: #fff;
 $white--lightgray: #fafafa;
 $black: #000;
 $cursor-disabled: none;
+$max-width: 1400px;
 
 
 //== Colors
@@ -156,7 +157,7 @@ $caret-width-large:         5px !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #333 !default;
+$btn-default-color:              #222 !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 

@@ -1,7 +1,3 @@
-(()=> {
-  let x = 1;
-  window.onload = () => {
-    console.log(x);
-  }
+import navigation from './navigation';
 
-})();
+navigation.init();

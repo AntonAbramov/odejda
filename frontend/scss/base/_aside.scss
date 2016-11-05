@@ -1,0 +1,12 @@
+.side-nav {
+  white-space: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 5px 0;
+  background: #f9f9f9;
+}
+
+.side-nav__item {
+  display: inline-block;
+  padding: 5px 15px;
+}

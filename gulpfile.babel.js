@@ -25,7 +25,8 @@
 
 gulp.task('js', function() {
   return gulp.src('frontend/js/main.js')
-      .pipe(webpackStream(require('./webpack.config.js')));
+      .pipe(webpackStream(require('./webpack.config.js')))
+      .pipe(gulp.dest('public/js/'));;
 });
 
 gulp.task('webpack', function (callback) {
