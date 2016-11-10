@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://odejda-ua/sitemap.xml
+Sitemap: https://odejda-ua/sitemap.xml
