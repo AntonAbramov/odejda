@@ -1,97 +1,96 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-        <loc>https://odejda-ua.com/</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-odejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-jenskoi-odejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/remont-odejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/about</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/contacts</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-korporativnoi-odejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-spezodejdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy/kostumi</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy/pidjak</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-odejdy/optom</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-odejdy/textil</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-vechernix-platev</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-svadebnyx-platev</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/plate-podruzhki-nevesty</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-platev</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/malenkoe-chernoe-plate</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/platya-korotkie</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/yubka-karandash</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-mexa</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-kozhi</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/remont-mexa</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/remont-kozhi</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-kupalnikov</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/moda-dlya-beremennyx</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/poshiv-detskoj-odezhdy</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/kostyumy-na-xellouin</loc>
-    </url>
-    <url>
-        <loc>https://odejda-ua.com/tematicheskie-kostyumy</loc>
-    </url>
+<url>
+  <loc>https://odejda-ua.com/</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-odejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-jenskoi-odejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/remont-odejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/about</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/contacts</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-korporativnoi-odejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-spezodejdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy/kostumi</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-mujskoi-odejdy/pidjak</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-odejdy/optom</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-odejdy/textil</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-vechernix-platev</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-svadebnyx-platev</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/plate-podruzhki-nevesty</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-platev</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/malenkoe-chernoe-plate</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/platya-korotkie</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/yubka-karandash</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-mexa</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-kozhi</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/remont-mexa</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/remont-kozhi</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-kupalnikov</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/moda-dlya-beremennyx</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/poshiv-detskoj-odezhdy</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/kostyumy-na-xellouin</loc>
+</url>
+<url>
+  <loc>https://odejda-ua.com/tematicheskie-kostyumy</loc>
+</url>
 </urlset>
