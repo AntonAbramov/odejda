@@ -3,6 +3,7 @@
 // require.ensure(['name.js'], function(require){require(name.js).xyz();})
 
 import webpack from 'webpack';
+import path from 'path';
 import rimraf from 'rimraf';// remove files
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -12,10 +13,10 @@ const extractSass = new ExtractTextPlugin({
 });
 
 module.exports = {
-  context: __dirname + '/frontend/js', //base directory for enrty files
+  context: __dirname + '/frontend', //base directory for enrty files
   entry: {
-    'main': 'main',
-    'css'                 : './../scss/styles.scss' // Styles entry point
+    'main': './js/main',
+    'css' : './scss/styles.scss' // Styles entry point
   },
 
   output: {
@@ -28,7 +29,9 @@ module.exports = {
 
   resolve: {
     modules: ['frontend/js', 'node_modules'], // define url where to look for modules
-    alias: {}
+    alias: {
+
+    }
   },
   resolveLoader: {
     modules: ['node_modules'] // define url where to look for loader modules
@@ -57,16 +60,17 @@ module.exports = {
         test: /\.scss$/,
         use: extractSass.extract({
           use: [{
-            loader: "css-loader",
-            options: {
-              sourceMap: true
-            }
+            loader: "css-loader"
           }, {
             loader: "sass-loader"
           }],
           // use style-loader in development
           fallback: "style-loader"
         })
+      },
+      {
+        test: /\.(woff2|woff|ttf|eot|svg|otf)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loaders: ["url-loader?limit=100&name=fonts/[name].[ext]"]
       }
     ]
   }
