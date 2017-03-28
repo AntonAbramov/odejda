@@ -1,16 +1,12 @@
-.top-nav {
-  display: block;
-  text-align: center;
+/*.logo {
+  font-size: 30px;
+  padding-left: 26px;
 }
 
-.top-nav__item {
-  border: none;
-  font-weight: 700;
-  display: inline-block;
-  &:hover{
-    background: none;
-  }
-}
+.logo__icon {
+  width: 24px;
+  top: 10px;
+}*/
 
 .show-tablet {
   display: block;
@@ -20,59 +16,91 @@
   display: none;
 }
 
-.top-nav {
-  background: #f9f9f9;
-  &:after {
-    content:"";
-    display: table;
-    clear:both;
-  }
+.b {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  margin: 0 -7.5px;
 }
 
-.header__section {
+.b__item {
+  padding: 30px 20px 18%;
   position: relative;
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  margin: 0 7.5px;
 }
 
-.header__top-info {
-  float: left;
-}
-
-.header__contacts {
-  float: right;
-}
-
-.logo {
+.b__img {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  font-size: 30px;
-  top: 50%;
-  line-height: 1;
-
+  left: 0;
+  bottom: 0;
 }
 
-.side-bar {
-  width: 25%;
-  float: left;
+.slider__item--purple {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#403842+0,151116+100 */
+  background: url('/img/remont-odezdu.png') no-repeat 100% 0, radial-gradient(ellipse at center, #403842 0%,#151116 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.side-nav  {
-  white-space: normal;
+.slider__item--green {
+  background: url('/img/poshuv-odezdu-optom.png') no-repeat 100% 0, radial-gradient(ellipse at center, #24a427 0%,#1e521b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.slider__item--blue {
+  background: url('/img/poshuv-zenskoi-odezdu.png') no-repeat 80% 0, radial-gradient(ellipse at center, #444674 0%,#252745 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.slider__item--grey {
+  background: url('/img/poshuv-muzskoi-odezdu.png') no-repeat 70% 0, radial-gradient(ellipse at center, #826d61 0%,#372417 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.slider__item {
+  background-size: contain;
+}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+.box__wrp {
+  text-align: left;
+  height: 350px;
+  position: relative;
+  padding: 40px 240px 40px 20px;
+}
+
+.box__title,
+.box__link,
+.box__description {
+  position: relative;
+  z-index: 2;
+}
+
+.box__title {
+  font-size: 24px;
+  margin: 0 0 25px;
+  text-overflow: initial;
   overflow: visible;
-  background: none;
+  white-space: initial;
+  line-height: 26px;
+  padding-right: 40px;
 }
 
-.side-nav__item {
-  display: block;
+.box__description {
+  height: auto;
 }
 
-.body {
-  width: 75%;
-  float: left;
+.box__link {
+  margin: 0;
+}
+
+.box__picture {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+}
+
+.box__img {
+  max-height: 100%;
 }

@@ -1,0 +1,24 @@
+.custom-row {
+  padding: 0 7.5px;
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 0 7.5px;
+}
+
+.box__title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.box__description {
+  height: 40px;
+}
