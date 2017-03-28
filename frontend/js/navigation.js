@@ -1,7 +1,7 @@
 export default (() => {
 
   let triggerBtn;
-  let nav;
+  let header;
 
   let init = () => {
     _cacheDom();
@@ -10,7 +10,7 @@ export default (() => {
 
   function _cacheDom() {
     triggerBtn = document.getElementById('navbar-toggle');
-    nav = document.getElementById('top-nav');
+    header = document.getElementById('header');
   }
 
   function _bindEvents() {
@@ -19,10 +19,10 @@ export default (() => {
 
   function _toggleNav(e) {
     e.preventDefault();
-    if (nav.className === 'top-nav') {
-      nav.className = nav.className + ' is-open';
+    if (header.className === 'header') {
+      header.className += ' is-nav-open';
     } else {
-      nav.className = 'top-nav';
+      header.className = 'header';
     }
   }
 
