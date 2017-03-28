@@ -1,0 +1,33 @@
+.b {
+  margin: 0 0 40px;
+}
+
+.b__item {
+  margin: 0 0 15px;
+  padding: 30px 20px 0;
+  border: 1px solid #f4f4f4;
+  background: #fff;
+  text-align: center;
+}
+
+
+.b__title,
+.b__description {
+  font-family: $lora;
+}
+
+.b__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.b__description {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.b__img {
+  display: block;
+  max-height: 110px;
+  margin: 0 auto;
+}

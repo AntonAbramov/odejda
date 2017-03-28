@@ -1,9 +1,38 @@
-.header__section {
-  padding: 10px 15px;
+.header {
+  padding: 15px;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  z-index: 2;
 }
 
 .logo {
+  display: block;
+  text-transform: uppercase;
   font-weight: 700;
+  top: -8px;
   font-size: 20px;
   text-decoration: none;
+  color: #fff;
+  padding-left: 20px;
+  position: relative;
+  font-family: $lora;
+  left: -5px;
+}
+
+.logo__icon {
+  width: 17px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+#Logo-icon-3 {
+  color: blue;
+  fill: blue;
+}
+
+.logo__icon path {
+  color: red;
 }

@@ -1,3 +1,66 @@
 .footer {
-  padding: 0 15px;
+  text-align: center;
+  background: #fff;
+  padding: 30px 15px;
+  border-top: 1px solid #f4f4f4;
+  margin: 30px 0 0;
+  order: 11;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.footer__tel-icon {
+  width: 30px;
+}
+
+.footer__tel {
+  font-size: 18px;
+}
+
+.footer__email {
+  vertical-align: middle;
+}
+
+.footer__mail-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer__mail-icon {
+  margin-right: 15px;
+}
+
+.social {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer__make-order {
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 2px solid #000;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 0;
+  text-decoration: none;
+}
+
+.bottom {
+  padding: 20px 20px 10px;
+  text-align: center;
+  order: 12;
 }

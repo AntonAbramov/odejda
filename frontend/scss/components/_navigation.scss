@@ -1,3 +1,43 @@
+.nav {
+  margin: 0 -15px;
+  display: none;
+}
+
+.is-nav-open {
+  background: #fff;
+  padding: 15px 15px 0 15px;
+  .nav {
+    display: block;
+  }
+  .icon-bar {
+    background: #000;
+  }
+  .logo__icon {
+    display: none;
+  }
+  .logo {
+    color: #000;
+    left: 0;
+    padding: 0;
+    &:before {
+      content: "O";
+
+    }
+  }
+}
+
+.nav__item {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-bottom: 1px solid $border-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  &:hover {
+    background: #f9f9f9;
+  }
+}
+
 .nav-toggle {
   position: absolute;
   padding: 10px 15px;
@@ -14,26 +54,10 @@
   width: 22px;
   height: 2px;
   border-radius: 1px;
-  background-color: #428bca;
+  background-color: #fff;
 }
 
 .icon-bar+.icon-bar {
   margin-top: 4px;
 }
 
-.top-nav {
-  display: none;
-  &.is-open {
-    display: block;
-  }
-}
-
-.top-nav__item {
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-bottom: 1px solid #ccc;
-  &:hover {
-    background: #f9f9f9;
-  }
-}

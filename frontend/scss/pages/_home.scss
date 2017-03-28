@@ -1,0 +1,55 @@
+.f {
+  margin: 0 0 40px;
+}
+.f__title {
+  font-size: 24px;
+  font-family: $lora;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+
+.f__description,
+.feedback__text {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-family: $lora;
+  line-height: 22px;
+}
+
+.feedback {
+  margin: 60px 0 0;
+}
+
+.feedback__item {
+  text-align: center;
+  position: relative;
+  padding: 100px 10px 0;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 6px 5px 20px rgba(0, 0, 0, 0.03);
+}
+
+.feedback__ava {
+  width: 127px;
+  height: 127px;
+  position: absolute;
+  left: 50%;
+  margin-left: -63px;
+  top: -40px;
+  border-radius: 200px;
+}
+.feedback__text {
+
+}
+.feedback__footer {
+  border-top: 1px solid #f5f5f5;
+  padding: 20px;
+  margin: 20px -10px 0;
+  font-weight: 700;
+}
+
+.logo svg {
+  fill: #fff;
+}
