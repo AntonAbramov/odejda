@@ -1,25 +1,28 @@
-header
-  section.header__section
-    a.logo(href='/') Odejda-UA
-    .header__top-info.show-tablet
-      |Оптовая продажа трикотажных изделий
-      br
-      |от производителя в Харькове
-    .header__contacts.show-tablet
-      .header__city
-        strong Харьков
-      .header__telephones
-        span +38 050 574-27-71
+header#header.header
+  a.logo(href='https://google.com', title="Пошив одежды оптов Харьков")
+    object.logo__icon(type="image/svg+xml" width="100px" data="/img/logo-icon.svg")
+      img.logo__icon(src="/img/logo-icon.svg", alt='Картинка: Пошив одежды Оптом' title='Пошив одежды Харьков')
+    |dejda-Ua
 
-  nav#top-nav.top-nav
-    a.top-nav__item(href="/poshiv-odejdy", title="Пошив одежды") Пошив одежды
-    a.top-nav__item(href="/poshiv-jenskoi-odejdy", title="Пошив женской одежды") Женская одежда
-    a.top-nav__item(href="/poshiv-mujskoi-odejdy", title="Пошив мужской одежды") Мужская одежда
-    a.top-nav__item(href="/remont-odejdy", title="Ремонт одежды") Ремонт одежды
-    a.top-nav__item(href="/about", title="О нас") О нас
-    a.top-nav__item(href="/contacts", title="Как нас найти") Контакты
 
-  button#navbar-toggle.nav-toggle.hide-tablet
+  nav#nav.nav
+    a.nav__item(href="/poshiv-odejdy", title="Пошив одежды") Пошив одежды
+    a.nav__item(href="/poshiv-jenskoi-odejdy", title="Пошив женской одежда") Женская одежда
+    a.nav__item(href="/poshiv-mujskoi-odejdy", title="Пошив мужской одежды") Мужская одежда
+    a.nav__item(href="/poshiv-odejdy-optom", title="Оптовый пошив") Оптовый пошив
+    a.nav__item(href="/remont-odejdy", title="Ремонт одежды") Ремонт одежды
+    a.nav__item(href="/contacts", title="Наши контакты") Контакты
+    a.nav__item.make-order(href="/", title="Сделать заказ одежды") Сделать заказ
+
+
+    //a.nav__item(href="/poshiv-odejdy", title="Пошив одежды") Пошив одежды
+    //a.nav__item(href="/poshiv-jenskoi-odejdy", title="Пошив женской одежды") Женская одежда
+    //a.nav__item(href="/poshiv-mujskoi-odejdy", title="Пошив мужской одежды") Мужская одежда
+    //a.nav__item(href="/remont-odejdy", title="Ремонт одежды") Ремонт одежды
+    //a.nav__item(href="/about", title="О нас") О нас
+    //a.nav__item(href="/contacts", title="Как нас найти") Контакты
+
+  button#navbar-toggle.nav-toggle.hide-desktop
     span.icon-bar
     span.icon-bar
     span.icon-bar

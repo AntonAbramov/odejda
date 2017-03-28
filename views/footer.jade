@@ -1,17 +1,27 @@
-.footer
-  nav.sosials
-    a(href="https://www.facebook.com/TailorStudio-335610423458062/").sosial__item
+footer.footer
+  p.footer__title Контакты
+  p
+    object.footer__tel-icon(type="image/svg+xml" width="100px" data="/img/icons/phone.svg")
+  p
+    a.footer__tel(href="tel:+380505742771") (050) 574 27 71
+  p.footer__email
+    a.footer__mail-link(href="mailto:info@odejda-ua.com")
+      object.footer__mail-icon(type="image/svg+xml" width="30px" data="/img/icons/mailbox.svg")
+      |info@odejda-ua.com
+
+
+  nav.social
+    a(href="https://www.facebook.com/TailorStudio-335610423458062/").social__item
       img(src="/img/icons/fb.svg")
-    a(href="#", style="display:none").sosial__item
+    a(href="#", style="display:none").social__item
       img(src="/img/icons/in.svg")
-    a(href="https://vk.com/tailorstudio").sosial__item
+    a(href="https://vk.com/tailorstudio").social__item
       img(src="/img/icons/vk.svg")
-    a(href="#", style="display:none").sosial__item
+    a(href="#", style="display:none").social__item
       img(src="/img/icons/tw.svg")
-    a(href="#", style="display:none").sosial__item
+    a(href="#", style="display:none").social__item
       img(src="/img/icons/ok.svg")
-  p.text-center
-    | Всем доброго времени суток, мы запускаем наше Ателье в городе Харькове, где вы сможете заказать индвидуальный &nbsp;
-    strong пошив одежды
-    | &nbsp;любой сложности.
-  p.text-center Будем рады вас видеть. Odejda-ua
+  p
+    a.footer__make-order(href="#") Сделать заказ
+div.bottom
+  object.bottom__logo(type="image/svg+xml" width="100px" data="/img/logo.svg")
