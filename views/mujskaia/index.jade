@@ -1,19 +1,120 @@
 extends ../layout
 block content
-  h1(title='Мужская одежда: кто сказал, что нет мужской моды?') Мужская одежда: кто сказал, что нет мужской моды?
-  p
-    | Каждый мужчина сталкивался с проблемой подбора костюма. Как правило, данные изделия производят, основываясь на определенных стандартах и размерных таблицах, которым соответствуют далеко не все представители мужского пола. Эта проблема особенно актуальна, когда предстоит важное событие и нужно выглядеть на все сто. Единственным выходом из сложившейся ситуации является&nbsp;
-    strong индивидуальный пошив мужских костюмов
-    |. Оdejda-ua знает толк в мужской одежде и с радостью поможет Вам.
-  h2(title='Мужская одежда оптом от лучшего поставщика в Харькове') Мужская одежда оптом от лучшего поставщика в Харькове
-  p
-    | Мы также осуществляем массовый пошив одежды под заказ. Если Вам требуется надежный поставщик, мы рады долгосрочному и плодотворному сотрудничеству.
-  img.pull-left(src="/img/poshiv_muzskoi_odejdu.jpg", alt="Пошив мужской одежды")
-  h2(title='Мужская одежда: для кого будет актуален массовый пошив одежды?') Мужская одежда: для кого будет актуален массовый пошив одежды?
-  p
-    | Для магазинов, желающих расширить ассортимент. Хотите сделать ассортимент оригинальным? Мы осуществляем пошив по Вашим лекалам и предлагаем услуги по их разработке. Возможен&nbsp;
-    em пошив мужских костюмов
-    |&nbsp;и любых других изделий.
-  h2(title='Мужская одежда больших размеров') Мужская одежда больших размеров
-  p
-    | Сложно найти одежду подходящего размера? Закажите у нас индивидуальный пошив. Мы пошьем для Вас изделия, которые будут идеально подходить Вам по всем параметрам.
+  .text-container
+    h1.text-center(title='Мужская одежда: кто сказал, что нет мужской моды?') Мужская одежда: кто сказал, что нет мужской моды?
+    p
+      | Каждый мужчина сталкивался с проблемой подбора костюма. Как правило, данные изделия производят, основываясь на определенных стандартах и размерных таблицах, которым соответствуют далеко не все представители мужского пола. Эта проблема особенно актуальна, когда предстоит важное событие и нужно выглядеть на все сто. Единственным выходом из сложившейся ситуации является&nbsp;
+      strong индивидуальный пошив мужских костюмов
+      |. Оdejda-ua знает толк в мужской одежде и с радостью поможет Вам.
+    h2.text-center(title='Мужская одежда оптом от лучшего поставщика в Харькове') Мужская одежда оптом от лучшего поставщика в Харькове
+    p
+      | Мы также осуществляем массовый пошив одежды под заказ. Если Вам требуется надежный поставщик, мы рады долгосрочному и плодотворному сотрудничеству.
+    img.pull-left(src="/img/men-category/poshiv_muzskoi_odejdu.jpg", alt="Пошив мужской одежды")
+    h2.text-center(title='Мужская одежда: для кого будет актуален массовый пошив одежды?') Мужская одежда: для кого будет актуален массовый пошив одежды?
+    p
+      | Для магазинов, желающих расширить ассортимент. Хотите сделать ассортимент оригинальным? Мы осуществляем пошив по Вашим лекалам и предлагаем услуги по их разработке. Возможен&nbsp;
+      em пошив мужских костюмов
+      |&nbsp;и любых других изделий.
+    h2.text-center(title='Мужская одежда больших размеров') Мужская одежда больших размеров
+    p
+      | Сложно найти одежду подходящего размера? Закажите у нас индивидуальный пошив. Мы пошьем для Вас изделия, которые будут идеально подходить Вам по всем параметрам.
+
+
+  .bg.bg--blue
+    .bg__text Гардероб стильного мужчины
+  .custom-row
+    .box
+      .box__wrp
+        h3.box__title мужские костюмы
+        p.box__description-category Классические костюмы - это обязательный элемент гардероба любого мужчины
+        p.price.price--discout
+          span.price__from От
+          span.price__number 1000
+          span.price__currency грн.
+        p.price
+          span.price__from От
+          span.price__number 1000
+          span.price__currency грн.
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/poshiv-muzskoi-odejdu-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/costumes.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/costumes.jpg", alt="Картинка: Пошив мужских костюмов")
+    .box
+      .box__wrp
+        h3.box__title СПОРТИВНЫЕ КОСТЮМЫ
+        p.box__description-category Отличное решение для удобных занятий любым видом спорта. Держите себя в форме!
+        p.price
+          span.price__item
+            span.price__from От
+            span.price__number 1200
+            span.price__currency грн.
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/men-category/sport-costums-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/sport-costumes.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/sport-costumes.jpg", alt="Картинка: Пошив женской одежды")
+    .box
+      .box__wrp
+        h3.box__title ВЕТРОВКИ, ТОЛСТОВКИ, ХУДИ
+        p.box__description-category Стильное решение в осенний период времени. Защитит от ветра и привлечет внимание!
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/men-category/jackets-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/outerwear.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/outerwear.jpg", alt="Картинка: Пошив школьной формы")
+    .box
+      .box__wrp
+        h3.box__title СВИТШОТЫ, КЕНГУРУ
+        p.box__description-category Стильно, модно, молодёжно! Что ещё можно сказать?
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/men-category/sweters-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/sweters.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/sweters.jpg", alt="Картинка: Ремонт одежды")
+    .box
+      .box__wrp
+        h3.box__title МАЙКИ, ФУТБОЛКИ, ВОДОЛАЗКИ
+        p.box__description-category Легкая одежда на каждый день!И, помните, много футболок не бывает. Это важно!
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/men-category/tshirts-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/t-shirts.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/t-shirts.jpg", alt="Картинка: Ремонт одежды")
+    .box
+      .box__wrp
+        h3.box__title НИЖНЕЕ БЕЛЬЕ
+        p.box__description-category Сакральная красота мужского гардероба. Заказывайте!
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          source(srcset="/img/men-category/underwear-mobile.jpg", media="(max-width: 767px)")
+          source(srcset="/img/men-category/underwear.jpg", media="(min-width: 768px)")
+          img.box__img(src="/img/men-category/underwear.jpg", alt="Картинка: Ремонт одежды")
+    .box.show-desktop
+      .box__wrp
+        h3.box__title ВЕРХНЯЯ ОДЕЖДА
+        p.box__description-category Будь стильным даже в ливень, мороз и лютую стужу
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          img.box__img(src="/img/men-category/jackets.jpg", alt="Картинка: Ремонт одежды")
+    .box.show-desktop
+      .box__wrp
+        h3.box__title БРЮКИ
+        p.box__description-category Хорошие брюки как ничто другое говорят о состоятельности мужчины
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          img.box__img(src="/img/men-category/trousers.jpg", alt="Картинка: Ремонт одежды")
+    .box.show-desktop
+      .box__wrp
+        h3.box__title Рубашки
+        p.box__description-category Стильная рубашка украсит мужчину как на работе, так и в любой другой обстановке
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          img.box__img(src="/img/men-category/rubashka.jpg", alt="Картинка: Ремонт одежды")
+    .box.show-desktop
+      .box__wrp
+        h3.box__title Поло
+        p.box__description-category Бессмертная классика повседневного мужского гардероба
+        a.box__link(href="#") Заказать
+        picture.box__picture
+          img.box__img(src="/img/men-category/polo.jpg", alt="Картинка: Ремонт одежды")

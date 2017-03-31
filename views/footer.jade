@@ -1,27 +1,50 @@
 footer.footer
-  p.footer__title Контакты
-  p
-    object.footer__tel-icon(type="image/svg+xml" width="100px" data="/img/icons/phone.svg")
-  p
-    a.footer__tel(href="tel:+380505742771") (050) 574 27 71
-  p.footer__email
-    a.footer__mail-link(href="mailto:info@odejda-ua.com")
-      object.footer__mail-icon(type="image/svg+xml" width="30px" data="/img/icons/mailbox.svg")
-      |info@odejda-ua.com
-
-
-  nav.social
-    a(href="https://www.facebook.com/TailorStudio-335610423458062/").social__item
-      img(src="/img/icons/fb.svg")
-    a(href="#", style="display:none").social__item
-      img(src="/img/icons/in.svg")
-    a(href="https://vk.com/tailorstudio").social__item
-      img(src="/img/icons/vk.svg")
-    a(href="#", style="display:none").social__item
-      img(src="/img/icons/tw.svg")
-    a(href="#", style="display:none").social__item
-      img(src="/img/icons/ok.svg")
-  p
-    a.footer__make-order(href="#") Сделать заказ
+  .cf
+    .col-md-2.show-desktop
+      h4.footer__title ОПТОВЫЙ ПОШИВ
+      a.footer__link(href="#") Пиджаки
+      a.footer__link(href="#") Рубашки
+      a.footer__link(href="#") Галстуки
+      a.footer__link(href="#") Брюки
+      a.footer__link(href="#") Нижнее бельё
+      a.footer__link(href="#") Верхняя одежда
+    .col-md-2.show-desktop
+      h4.footer__title ЖЕНСКАЯ ОДЕЖДА
+      a.footer__link(href="#") Платья
+      a.footer__link(href="#") Туники
+      a.footer__link(href="#") Блузки
+      a.footer__link(href="#") Юбки
+      a.footer__link(href="#") Нижнее бельё
+      a.footer__link(href="#") Меховые изделия
+    .col-md-2.show-desktop
+      h4.footer__title РЕМОНТ ОДЕЖДЫ
+      a.footer__link(href="#") Виды услуг
+      a.footer__link(href="#") Цены
+      a.footer__link(href="#") Почему мы?
+      a.footer__link(href="#") Примеры работ
+    .col-xs-12.col-md-3
+      p.footer__title Контакты
+      div.footer__tel
+        object.footer__tel-icon(type="image/svg+xml" width="100px" data="/img/icons/phone.svg")
+        p
+          a.footer__number(href="tel:+380505742771") (050) 574 27 71
+      p.footer__email
+        a.footer__mail-link(href="mailto:info@odejda-ua.com")
+          object.footer__mail-icon(type="image/svg+xml" width="30px" data="/img/icons/mailbox.svg")
+          |info@odejda-ua.com
+      nav.social
+        a(href="https://www.facebook.com/TailorStudio-335610423458062/").social__item
+          img(src="/img/icons/fb.svg")
+        a(href="#", style="display:none").social__item
+          img(src="/img/icons/in.svg")
+        a(href="https://vk.com/tailorstudio").social__item
+          img(src="/img/icons/vk.svg")
+        a(href="#", style="display:none").social__item
+          img(src="/img/icons/tw.svg")
+        a(href="#", style="display:none").social__item
+          img(src="/img/icons/ok.svg")
+    .col-xs-12.col-md-3
+      p
+        a.footer__make-order(href="#") Сделать заказ
 div.bottom
   object.bottom__logo(type="image/svg+xml" width="100px" data="/img/logo.svg")
