@@ -8,8 +8,6 @@
   background-color: $background;
   border-color: $border;
 
-  &:hover,
-  &:focus,
   &.focus,
   &:active,
   &.active,
@@ -26,9 +24,6 @@
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
-    &,
-    &:hover,
-    &:focus,
     &.focus,
     &:active,
     &.active {

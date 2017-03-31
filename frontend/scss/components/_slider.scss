@@ -21,7 +21,6 @@
   background: #24a427; /* Old browsers */
   background: url('/img/poshuv-odezdu-optom.png') no-repeat 0 0, radial-gradient(ellipse at center, #24a427 0%,#1e521b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a427', endColorstr='#1e521b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 }
 
 .slider__item--blue {
@@ -29,6 +28,7 @@
   background: url('/img/poshuv-zenskoi-odezdu.png') no-repeat 0% 10%, radial-gradient(ellipse at center, #444674 0%,#252745 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444674', endColorstr='#252745',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
 .slider__item--grey {
   background: #826d61; /* Old browsers */
   background: url('/img/poshuv-muzskoi-odezdu.png') no-repeat -30% 0%, radial-gradient(ellipse at center, #826d61 0%,#372417 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -70,6 +70,11 @@
   border-radius: 20px;
   max-width: 240px;
   margin: 40px auto 0;
+  transition: all .2s;
+  &:active {
+    background: #fff;
+    color: #000;
+  }
 }
 
 .slider__pagination {
@@ -97,7 +102,7 @@
   font-size: 18px;
   font-family: 'lora';
   line-height: 1;
-  transition: all .3s;
+  transition: all .2s;
 }
 
 .slider__pagination__line {
@@ -105,7 +110,7 @@
   background: #fff;
   height: 20px;
   margin:0 auto;
-  transition: all .3s;
+  transition: all .2s;
 }
 
 .is-active {

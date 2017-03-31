@@ -16,9 +16,10 @@
 
 .footer__tel-icon {
   width: 30px;
+  margin: 0 0 10px;
 }
 
-.footer__tel {
+.footer__number {
   font-size: 18px;
 }
 
@@ -53,10 +54,18 @@
   text-transform: uppercase;
   font-weight: 700;
   border: 2px solid #000;
+  text-align: center;
   max-width: 200px;
   display: block;
   margin: 0 auto 0;
   text-decoration: none;
+}
+
+.footer__make-order,
+.footer__link,
+.footer__number,
+.footer__mail-link {
+  color: #000;
 }
 
 .bottom {
@@ -64,3 +73,4 @@
   text-align: center;
   order: 12;
 }
+

@@ -1,4 +1,4 @@
-html, body, .lp  {
+html, body, .lp {
   -webkit-overflow-scrolling: touch;
 }
 
@@ -24,10 +24,6 @@ body {
 
 .custom-row {
   padding: 0 15px;
-}
-
-.box {
-
 }
 
 .box__wrp {
@@ -65,6 +61,13 @@ body {
   max-width: 180px;
   text-align: center;
   color: #000;
+  text-decoration: none;
+}
+
+.box__link:active,
+.footer__make-order:active {
+  color: #fff;
+  background: #000;
 }
 
 .box__picture {
@@ -79,4 +82,82 @@ body {
 
 .text-container {
   order: 10;
+}
+
+.price {
+  font-family: $lora;
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.price__from {
+  font-size: 18px;
+}
+
+.price__number {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0 8px 0 5px;
+}
+
+.price__currency {
+  font-size: 24px;
+}
+
+.price--discout {
+  margin: 15px 0 -10px;
+  .price__from {
+    font-size: 12px;
+  }
+  .price__number {
+    font-size: 24px;
+    text-decoration: line-through;
+  }
+  .price__currency {
+    font-size: 18px;
+  }
+  & + .price {
+    color: #f0084a;
+  }
+}
+
+.bg {
+  display: flex;
+  min-height: 300px;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.bg__text {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  font-family: $lora;
+  text-transform: uppercase;
+}
+
+.bg--purple {
+  background: #403842; /* Old browsers */
+  background: radial-gradient(ellipse at center, #403842 0%, #151116 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#403842', endColorstr='#151116', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bg--green {
+  background: #24a427; /* Old browsers */
+  background: radial-gradient(ellipse at center, #24a427 0%, #1e521b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24a427', endColorstr='#1e521b', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bg--blue {
+  background: #444674; /* Old browsers */
+  background: radial-gradient(ellipse at center, #444674 0%, #252745 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444674', endColorstr='#252745', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bg--grey {
+  background: #826d61; /* Old browsers */
+  background: radial-gradient(ellipse at center, #826d61 0%, #372417 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#826d61', endColorstr='#372417', GradientType=1); /* IE6-9 fallback on horizontal gradient */
 }
