@@ -69,7 +69,8 @@
 
 .box__title,
 .box__link,
-.box__description {
+.box__description,
+.box__description-category {
   position: relative;
   z-index: 2;
 }
@@ -84,12 +85,16 @@
   padding-right: 40px;
 }
 
-.box__description {
+.box__description,
+.box__description-category {
   height: auto;
 }
 
 .box__link {
   margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
 }
 
 .box__picture {
