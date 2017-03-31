@@ -25,7 +25,7 @@ function _bindEvents() {
       slider.next();
       setTimeout(()=>{
         el.removeAttribute('disabled');
-      }, 2000)
+      }, 400)
     }
 
   });
@@ -40,7 +40,7 @@ function _bindEvents() {
       slider.prev();
       setTimeout(()=>{
         el.removeAttribute('disabled');
-      }, 2000)
+      }, 400)
     }
   });
 
@@ -69,7 +69,7 @@ function _render() {
   slider = Swipe(document.getElementById('slider'), {
     startSlide: 0,
     speed: 400,
-    auto: 2000,
+    auto: 8000,
     continuous: true,
     disableScroll: false,
     stopPropagation: false,
